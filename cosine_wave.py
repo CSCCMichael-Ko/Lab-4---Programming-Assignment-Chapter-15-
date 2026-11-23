@@ -1,3 +1,14 @@
+"""
+Name: Michael Ko
+File Name: cosine_wave.py
+Class: CSCI-1511-W03L (Python Programming)
+Professor: Travis Burke
+Date: 11/22/2026
+Purpose: Generating data and visualizing it using the matplotlib library 
+- Imported the matplotlib.pyploy and math
+Starter Code: Based on Chapter 15 of the Textbook but mostly from the Weekly Lecture recording on November 19th and the instructions on Blackboard
+"""
+
 import math
 import matplotlib.pyplot as plt
 
