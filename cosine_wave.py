@@ -6,7 +6,8 @@ Professor: Travis Burke
 Date: 11/22/2026
 Purpose: Generating data and visualizing it using the matplotlib library 
 - Imported the matplotlib.pyploy and math
-Starter Code: Based on Chapter 15 of the Textbook but mostly from the Weekly Lecture recording on November 19th and the instructions on Blackboard
+Starter Code: Based on Chapter 15 of the Textbook but mostly from the Weekly Lecture recording on November 19th and the instructions on Blackboard. Searched some things up such as saving the png file.
+- https://www.geeksforgeeks.org/python/matplotlib-pyplot-savefig-in-python/
 """
 
 import math
@@ -34,6 +35,6 @@ ax.set_ylabel("cos(x)", fontsize=14)
 ax.set_xticks(range(0, 721, 90))
 ax.tick_params(labelsize=14)
 
-"""Showing the Image"""
-plt.savefig("cosine.png", bbox_inches="tight")
+"""Saving and Showing the Image"""
+plt.savefig("cosine.png")
 plt.show()
